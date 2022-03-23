@@ -65,6 +65,16 @@ mvn test -Dcucumber.class.tags="@smoke"
 
 * Resources File : It is where my scripts are written and stored in text language.
 
+## Cucumber File Meaning 
+
+* DifferentPathScenariTypes.feature : Different scenarios and the selection and processes of the car to be insured manually are followed on this page.
+
+* negativeTestWithScenarios.feature : It is expected to get positive results by entering with a negative value.
+
+* NotPassTest.feature : It is aimed to get negative results on this page. Thus, there will be one screenshoot for each negative result. You can see it with html report.
+
+* positiveTestWithScenarioOutline.feature : On this page, the scenario outline model has been tested for multiple variations. All values ​​will be tested one by one in order.
+
 
 
 
