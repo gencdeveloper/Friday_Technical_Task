@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/", //feature file directory
         glue = "com/friday/step_definitions", //provide step defitinions
         dryRun = false,
-        tags = "@NotPass", // what kind of tags we are running
+        tags = "@Smoke", // what kind of tags we are running
         plugin = "json:target/cucumber.json"
 
         /**My Triggers with annotations -- you can type after the tags value

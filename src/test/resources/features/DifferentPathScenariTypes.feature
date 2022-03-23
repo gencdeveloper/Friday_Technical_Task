@@ -6,7 +6,7 @@ Background:
   Scenario: The car will still be registered and choosed car with manuel path
 
     When User should be able to choose insurer type "The car will still be registered"
-    And  User should be able to type "<25.04.2022>" with valid date for insurance start day
+    And  User should be able to type "25.04.2022" with valid date for insurance start day
     Then User owner of the car yes or no "yes"
     Then User's car was "when buying new"
     Then User should be able to click for find by make & model
@@ -23,7 +23,7 @@ Background:
   Scenario: The car is already and choosed car with manuel path
 
     When User should be able to choose insurer type "The car is already insured"
-    And  User should be able to type "<02.05.2022>" with valid date for insurance start day
+    And  User should be able to type "02.05.2022" with valid date for insurance start day
     Then User owner of the car yes or no "no"
     Then User's car was "used at purchase"
     Then User should be able to click for find by make & model
